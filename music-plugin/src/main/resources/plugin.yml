@@ -1,0 +1,16 @@
+name: MusicRP
+version: '1.0.0'
+main: fr.rp.music.MusicRP
+api-version: '1.21'
+author: Baptiste
+description: Joue un fichier audio (lien direct .ogg) via un resource pack genere automatiquement
+
+commands:
+  playsound:
+    description: Telecharge un son depuis une URL directe et le joue
+    usage: /playsound <url_directe_vers_ogg> [joueur|all]
+
+permissions:
+  musicrp.use:
+    description: Acces a la commande /playsound
+    default: op

@@ -1,0 +1,22 @@
+# ============================================
+#   Configuration MusicRP
+# ============================================
+
+# --- Configuration GitHub (obligatoire) ---
+# Le plugin envoie le son genere sur un depot GitHub pour pouvoir le partager
+# aux joueurs sans avoir besoin d'ouvrir de port sur ton hebergeur.
+#
+# 1) Cree un depot GitHub PUBLIC dedie (ex: MusicRP-Sons)
+# 2) Cree un token sur https://github.com/settings/tokens
+#    -> "Generate new token (classic)"
+#    -> coche uniquement la case "repo"
+#    -> copie le token genere (il ne sera plus jamais affiche apres)
+# 3) Renseigne les deux valeurs ci-dessous
+
+github-token: ""
+github-depot: ""
+github-branche: "main"
+
+# Volume et hauteur du son (valeurs vanilla standard)
+volume: 1.0
+pitch: 1.0
